@@ -1,0 +1,6 @@
+{
+	"mysql_host":"localhost",
+	"mysql_user":"root",
+	"mysql_password":"wy19921022",
+	"hdfs_path":"/user/hadoop"
+}
