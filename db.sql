@@ -4,9 +4,7 @@ DROP DATABASE IF EXISTS datastudio;
 CREATE DATABASE IF NOT EXISTS datastudio;
 USE datastudio;
 
-DROP TABLE IF EXISTS user,
-					 model,
-					 dataset;
+DROP TABLE IF EXISTS user, model, dataset;
 
 CREATE TABLE user (
 	userId INT(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
